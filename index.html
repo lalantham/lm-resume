@@ -1,100 +1,188 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lalantha Madushan | Resume</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
-    </noscript>
-    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalantha Madushan | Cloud Engineer</title>
+    <meta name="description" content="Cloud Engineer with expertise in architecture, automation, and cloud-native technologies.">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Lalantha Madushan | Cloud Engineer">
+    <meta property="og:description" content="Cloud Engineer with expertise in architecture, automation, and cloud-native technologies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lalantha.com/">
+    <meta property="og:image" content="https://lalantha.com/images/avatar.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+
+    <!-- CSS & JS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            light: '#1a1a1a',
+                            dark: '#f5f5f5'
+                        },
+                        secondary: {
+                            light: '#4b5563',
+                            dark: '#9ca3af'
+                        },
+                        accent: {
+                            light: '#3b82f6',
+                            dark: '#60a5fa'
+                        },
+                        bg: {
+                            light: '#ffffff',
+                            dark: '#0a0a0a'
+                        }
+                    }
+                }
+            }
         }
-      </style>
-    </noscript>
-  </head>
-  <body id="top">
-    <header class="d-print-none">
-      <div class="container text-center text-lg-left">
-        <div class="py-3 clearfix">
-          <h1 class="site-title mb-0">Lalantha Madhushan</h1>
-          <div class="site-nav">
-            <nav role="navigation">
-              <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="https://facebook.com/lalanthamadhushan" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://github.com/lalantham" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://twitter.com/lalantham82" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+        }
+        .theme-transition * {
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+    </style>
+</head>
+<body class="theme-transition bg-bg-light text-primary-light dark:bg-bg-dark dark:text-primary-dark min-h-screen flex flex-col">
+    <!-- Skip to content -->
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-accent-light focus:text-white dark:focus:bg-accent-dark focus:rounded focus:z-50">
+        Skip to content
+    </a>
+
+    <!-- Header -->
+    <header class="container mx-auto px-6 py-8">
+        <div class="flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Lalantha Madushan</a>
+            <button id="theme-toggle" aria-pressed="false" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800">
+                <i data-feather="moon" class="hidden dark:block"></i>
+                <i data-feather="sun" class="dark:hidden"></i>
+                <span class="sr-only">Toggle dark mode</span>
+            </button>
         </div>
-      </div>
     </header>
-    <div class="page-content">
-      <div class="container">
-<div class="cover shadow-lg bg-white">
-  <div class="cover-bg p-3 p-lg-4 text-white">
-    <div class="row">
-      <div class="col-lg-4 col-md-5">
-        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/avatar.jpg" width="200" height="200"/></div>
-      </div>
-      <div class="col-lg-8 col-md-7 text-center text-md-start">
-        <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Lalantha Madushan</h2>
-        <p data-aos="fade-left" data-aos-delay="100">Cloud Engineer</p>
-        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="/uploads/MyCV-V1.1-20JAN2020.pdf" target="_blank">Download CV</a><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="https://www.linkedin.com/in/lalantha-madhushan/" target="_blank">Linkedin</a><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="https://wiki.lalantha.com/" target="_blank">Wiki</a><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href= "mailto: contact@lalantha.com">Contact</a><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href= "https://lalantha.home.blog/" target="_blank">Blog</a></div>
-      </div>
-    </div>
-  </div>
-  <div class="about-section pt-4 px-3 px-lg-4 mt-1">
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="h3 mb-3">About Me</h2>
-        <p>Hi there! I'm Lalantha Madushan, Cloud Engineer @ Lexicon Tech | Oracle Cloud Architect | Azure | Huawei | Security & Multi-Cloud | Linux Enthusiast | Technophile</p>
-      </div>
-    </div>
-  </div>
-  <hr class="d-print-none"/>
-</div></div>
-    </div>
-    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
-      <div class="container">
-        <div class="my-3">
-          <div class="h4">Lalantha Madushan</div>
-          <div class="footer-nav">
-            <nav role="navigation">
-              <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="https://facebook.com/lalanthamadhushan" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://github.com/lalantham" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://twitter.com/lalantham82" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+
+    <!-- Main Content -->
+    <main id="main" class="flex-grow container mx-auto px-6 py-8 max-w-2xl">
+        <!-- Photo -->
+        <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-accent-light dark:border-accent-dark mx-auto mb-6">
+            <img src="https://lalantha.com/images/avatar.jpg" alt="Lalantha" class="w-full h-full object-cover">
         </div>
-        <div class="text-small">
-          <div class="mb-1">&copy; LalanthaM. All rights reserved.</div>
-          <div>Copyright © 2023 <a href="https://lalantha.com/" target="_blank">lalantha.com</a></div>
+
+        <!-- Name & Position -->
+        <div class="text-center mb-8">
+            <h1 class="text-2xl md:text-3xl font-bold mb-1">Lalantha Madushan</h1>
+            <p class="text-secondary-light dark:text-secondary-dark">
+                Cloud Engineer
+            </p>
         </div>
-      </div>
+
+        <!-- About -->
+        <div class="mb-8">
+            <h2 class="text-lg font-bold mb-3 text-center">About Me</h2>
+            <div class="prose dark:prose-invert text-secondary-light dark:text-secondary-dark text-center">
+                <p>
+                    I’m a cloud engineering professional with expertise in architecture, automation, and cloud-native technologies, helping organizations build secure, scalable, and efficient cloud solutions.
+                </p>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="mb-8">
+            <h2 class="text-lg font-bold mb-3 text-center">Quick Links</h2>
+            <div class="grid grid-cols-2 gap-3 max-w-xs mx-auto">
+                <a href="https://lalantha.com/uploads/MyCV-V2.0-05SEP2025.pdf" class="px-4 py-2 bg-accent-light dark:bg-accent-dark text-white rounded-lg font-medium hover:opacity-90 transition-opacity text-center text-sm">
+                    Download CV
+                </a>
+                <a href="mailto:contact@lalantha.com" class="px-4 py-2 border border-primary-light dark:border-primary-dark rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors text-center text-sm">
+                    Email Me
+                </a>
+            </div>
+        </div>
+
+        <!-- Connect -->
+        <div>
+            <h2 class="text-lg font-bold mb-3 text-center">Connect</h2>
+            <div class="grid grid-cols-3 gap-3 max-w-md mx-auto">
+                <a href="https://www.linkedin.com/in/lalantha-madhushan/" target="_blank" rel="noopener noreferrer" class="px-3 py-2 border border-primary-light dark:border-primary-dark rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors flex flex-col items-center gap-1 text-xs">
+                    <i data-feather="linkedin" class="w-4 h-4"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://twitter.com/lalantham82" target="_blank" rel="noopener noreferrer" class="px-3 py-2 border border-primary-light dark:border-primary-dark rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors flex flex-col items-center gap-1 text-xs">
+                    <i data-feather="twitter" class="w-4 h-4"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="https://www.youtube.com/@lalanthama82" target="_blank" rel="noopener noreferrer" class="px-3 py-2 border border-primary-light dark:border-primary-dark rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors flex flex-col items-center gap-1 text-xs">
+                    <i data-feather="youtube" class="w-4 h-4"></i>
+                    <span>YouTube</span>
+                </a>
+                <a href="https://wiki.lalantha.com" target="_blank" rel="noopener noreferrer" class="px-3 py-2 border border-primary-light dark:border-primary-dark rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors flex flex-col items-center gap-1 text-xs">
+                    <i data-feather="book" class="w-4 h-4"></i>
+                    <span>Wiki</span>
+                </a>
+                <a href="https://lalantha.home.blog/" target="_blank" rel="noopener noreferrer" class="px-3 py-2 border border-primary-light dark:border-primary-dark rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors flex flex-col items-center gap-1 text-xs">
+                    <i data-feather="edit" class="w-4 h-4"></i>
+                    <span>Blog</span>
+                </a>
+                <a href="https://github.com/lalantham" target="_blank" rel="noopener noreferrer" class="px-3 py-2 border border-primary-light dark:border-primary-dark rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors flex flex-col items-center gap-1 text-xs">
+                    <i data-feather="github" class="w-4 h-4"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-6 py-4 text-xs text-secondary-light dark:text-secondary-dark text-center">
+        <p>© <span id="year"></span> Lalantha. All rights reserved.</p>
     </footer>
-    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-    <script src="scripts/aos.js?ver=1.2.0"></script>
-    <script src="scripts/main.js?ver=1.2.0"></script>
-  </body>
+
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        const currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme === 'dark' || (!currentTheme && prefersDarkScheme.matches)) {
+            document.documentElement.classList.add('dark');
+            themeToggle.setAttribute('aria-pressed', 'true');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const isPressed = themeToggle.getAttribute('aria-pressed') === 'true';
+            themeToggle.setAttribute('aria-pressed', String(!isPressed));
+
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // Initialize feather icons
+        feather.replace();
+    </script>
+</body>
 </html>
